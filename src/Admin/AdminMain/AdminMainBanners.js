@@ -12,14 +12,14 @@ function AdminMainBanners() {
   return (
     <div  >
       <h4> 메인 배너 수정</h4>
-      <div className="text-right text-danger ">
+      <div className="text-right  ">
         <big className="">*</big> 표시된 영역은 필수 입력 영역 입니다.
       </div>
-      <div className="mt-4 d-flex align-items-center">
+      <div className="mt-4 ">
         <CTable bordered className="">
           <CTableHead>
             <CTableRow>
-              <CTableHeaderCell className="bg-secondary  ">
+              <CTableHeaderCell className="bg-secondary  align-middle text-center">
                 <big className="text-danger">*</big> 메인 배너명
               </CTableHeaderCell>
               <CTableHeaderCell>
@@ -34,7 +34,7 @@ function AdminMainBanners() {
           {/* table 2*/}
           <CTableBody>
             <CTableRow>
-              <CTableHeaderCell className="bg-secondary ">
+              <CTableHeaderCell className="bg-secondary align-middle text-center">
                 <big className="text-danger">*</big>메인 배너 이미지 (PC)
               </CTableHeaderCell>
               <CTableDataCell>
@@ -58,7 +58,7 @@ function AdminMainBanners() {
           {/* table 3*/}
           <CTableBody>
             <CTableRow>
-              <CTableHeaderCell className="bg-secondary">
+              <CTableHeaderCell className="bg-secondary align-middle text-center ">
                 <big className="text-danger">*</big>메인 배너 이미지(Mobile)
               </CTableHeaderCell>
               <CTableDataCell>
@@ -82,7 +82,7 @@ function AdminMainBanners() {
           {/* table 4 */}
           <CTableBody>
             <CTableRow className="p-5">
-              <CTableHeaderCell className="  bg-secondary " >
+              <CTableHeaderCell className="  bg-secondary align-middle text-center" >
                 <div className="h-100 d-flex align-items-xl-center justify-content-center">
                       <big className="text-danger">*</big>노출 순서
                 </div>

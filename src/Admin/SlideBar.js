@@ -37,16 +37,22 @@ function SlideBar() {
           {/* quan ly lop hoc */}
           <CNavGroup toggler="수업 관리" className="pl-0">
             <CNavItem>
-              <CNavLink href="/login">LiveClass 수업 리스트</CNavLink>
+              <CNavLink href="/admin-list-class">
+                LiveClass 수업 리스트
+              </CNavLink>
             </CNavItem>
             <CNavItem>
-              <CNavLink href="/login">LiveClass 책글 주차 수정 리스트</CNavLink>
+              <CNavLink href="/admin-edit-class">
+                LiveClass 책글 주차 수정 리스트
+              </CNavLink>
             </CNavItem>
             <CNavItem>
-              <CNavLink href="/lolin">과학수학 다빈치 리스트</CNavLink>
+              <CNavLink href="/admin-list-study-class">
+                과학수학 다빈치 리스트
+              </CNavLink>
             </CNavItem>
             <CNavItem>
-              <CNavLink href="/lolin">다빈치 로그 리스트</CNavLink>
+              <CNavLink href="/admin-diary-class">다빈치 로그 리스트</CNavLink>
             </CNavItem>
           </CNavGroup>
           {/* quan ly sach*/}

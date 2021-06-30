@@ -17,7 +17,7 @@ function Admin() {
     <div className="min-vh-100 ">
       <Header />
       {/* slide bar */}
-      <div className="row">
+      <div className="row mr-0 ml-0">
         <div className="col-3  pl-0  d-flex">
           <SlideBar />
         </div>

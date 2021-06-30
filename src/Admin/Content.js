@@ -6,7 +6,7 @@ import routes from "../router.js";
 function Content() {
   return (
     <>
-      <CContainer lg>
+      <CContainer xxl>
         <Suspense fallback={<CSpinner color="primary" />}>
           <Switch>
             {routes.map((route, idx) => {
